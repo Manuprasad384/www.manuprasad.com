@@ -75,8 +75,7 @@
 <div class="form-popup" id="form" >
    
   
-  <form  class="form-container"  id="myForm" method="POST" action="https://script.google.com/macros/s/AKfycbz9NDWcBZGV-hpN4EWVgLe3HC8XW0InNV4MdruRdVDTfc8282hv5kIudW2p_7pu9FAk7A/exec" >
-      
+  <form  class="form-container"  id="myForm" >
     
 <input type="text" placeholder="Your Name" 
 name="name"  class="input" maxlength="15">
@@ -104,23 +103,7 @@ name="mobileno"  class="input" maxlength="10">
     </section>
     </div>
     
-    <script>
-        
-        $('#myForm').submit((e)=>{
-    e.preventDefault()
-    $.ajax({
-      url:'https://script.google.com/macros/s/AKfycbz9NDWcBZGV-hpN4EWVgLe3HC8XW0InNV4MdruRdVDTfc8282hv5kIudW2p_7pu9FAk7A/exec',
-      method:'post',
-
-      data:$('#myForm').serialize(),
-      success:(res)=>{
-       
-        document.getElementById("myForm").reset();
-      },
-      error:(err)=>{alert('somthing error')}
-    })
-  })
-    </script>
+    
 
 </body>
 </html>
