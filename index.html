@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title >manuprasad MP </title>
+    <link rel="icon" href="1621690652240.png" >
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+   <!-- Option 1: Include in HTML -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="popper-2.11.5/dist/umd/popper.min.js"></script>
+    <!-- JavaScript Bundle with Popper --> <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
+        </script>
+        
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js">
+    </script>
+</head>
+<body id="b">
+
+   <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>  
+    
+       
+<section class="sec" id="div1">
+  <div   class="container-fluid " id="d3" >
+  <div class="row " id="d1">
+  <div id="d2" data-aos="zoom-in"data-aos-duration="2000" class=" col-12 col-lg-4 mask"style="z-index:1;">
+      
+      <img id="img1" 
+      src="FB_IMG_1519387811111.jpg" alt="" class="img-fluid">
+  </div>
+  <div
+  data-aos="zoom-in"data-aos-duration="3000"
+  class=" col-12 col-lg-8  "style="padding-left:6%;padding-top:6%;z-index:2">
+    
+<h1 class="display-1 text-white ">Hi I'm Manuprasad</h1>
+<p class="text-info "style="padding-left:65%">DEVELOPER</p>
+
+  </div> 
+    </div>
+     </div>
+      </section>
+
+
+<section class="sec2">
+    <div id="d5" class="contianer d-flux">
+        <img src="android.jpg"class="img2" alt=""
+     data-aos="fade-left"data-aos-duration="2000"  >
+        <img src="java.jpg"class="img2"
+    data-aos="zoom-in"data-aos-duration="2000"   >
+        <img src="web.jpg"class="img2" alt=""
+     data-aos="fade-right"data-aos-duration="2000"  >
+    </div>
+</section>
+
+
+<section >
+    <div class="container d-flex" id="div6">
+        <div id="arrow" data-aos="zoom-in" data-aos-duration="2000">
+            <img src="arrow.png" class="arrow"  alt="">
+        </div>
+    <div  data-aos="zoom-in" data-aos-duration="2000">
+      <button id="btn" type="button" onclick="openForm()"> <img src="mail.png" class="img3" alt="">  
+      </button>      
+    </div>    
+    </div>
+</section>
+
+<section>
+<div class="form-popup" id="form" >
+   
+  
+  <form  class="form-container"  id="myForm" method="POST" action="https://script.google.com/macros/s/AKfycbz9NDWcBZGV-hpN4EWVgLe3HC8XW0InNV4MdruRdVDTfc8282hv5kIudW2p_7pu9FAk7A/exec" >
+      
+    
+<input type="text" placeholder="Your Name" 
+name="name"  class="input">
+    
+
+<input type="number" placeholder="Your Phone Number" 
+name="mobileno"  class="input">
+
+    
+    <input type="email" placeholder="Your Email Id" name="email"  class="input">
+
+    
+    <textarea  name="msg"  class="input2" placeholder="Your Message" ></textarea>
+    
+    <div class="container d-flux">
+        
+        <button id="btn1" class="bg-danger text-white" onclick="cancel()">cancel</button>
+        
+        <button id="btn2" class="bg-success text-white"   >send</button>
+    
+    </div>
+    
+        
+    
+    </section>
+    </div>
+    
+    <script>
+        
+        $('#myForm').submit((e)=>{
+    e.preventDefault()
+    $.ajax({
+      url:'https://script.google.com/macros/s/AKfycbz9NDWcBZGV-hpN4EWVgLe3HC8XW0InNV4MdruRdVDTfc8282hv5kIudW2p_7pu9FAk7A/exec',
+      method:'post',
+
+      data:$('#myForm').serialize(),
+      success:(res)=>{
+        
+        window.location.reload()
+      },
+      error:(err)=>{alert('somthing error')}
+    })
+  })
+    </script>
+
+</body>
+</html>
+
+       
