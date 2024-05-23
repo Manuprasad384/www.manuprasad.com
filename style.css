@@ -4,7 +4,7 @@ background: black;
 }
  
 #gradientBorder{
-    margin:4px;
+    margin:5% 4px 4px 4px;
      border-radius:15px 35px;
     background-image:linear-gradient(to bottom right,#ff00f1,#ffdc00,#55d5ff);
     
