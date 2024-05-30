@@ -136,12 +136,10 @@ input[type=text], textarea{
  }
  
  #btn3{
-     margin-left:43%;
-  align-items:center;
-     margin-bottom:3%;
-     width:20%;
-     border-radius:10px;
-     border:transparent;
+     margin-left:10%;
+    margin-bottom:3%;
+     background:transparent;
+    border:transparent;
  }
  
 
@@ -230,4 +228,11 @@ margin-left:15%;
 #imgc{
     width:10%;
     height:10%;
+}
+
+
+
+#imgs{
+    width:15%;
+    height:15%;
 }
