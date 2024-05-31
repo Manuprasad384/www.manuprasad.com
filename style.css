@@ -315,21 +315,21 @@ display:none;
 
 
 @keyframes menu1{
-0%{margin-left:39%;margin-top:80%;}
+0%{margin-left:39%;margin-top:76%;}
 100%{margin-left:16%;margin-top:60%;}
     
 }
 
 
 @keyframes menu2{
-0%{margin-left:39%;margin-top:80%;}
+0%{margin-left:39%;margin-top:76%;}
 100%{margin-left:39%;margin-top:50.3%;}
     
 }
 
 
 @keyframes menu3{
-0%{margin-left:39%;margin-top:80%;}
+0%{margin-left:39%;margin-top:76%;}
 100%{margin-left:60%;margin-top:60%;}
     
 }
