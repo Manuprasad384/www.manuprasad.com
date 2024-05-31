@@ -87,3 +87,11 @@ function project(){
     document.location=
     " https://manuprasad384.github.io/Calculator/";
 }
+function bio(){
+    alert("NOT SET YET");
+    
+}
+function home(){
+alert("NOT SET YET");
+    
+}
