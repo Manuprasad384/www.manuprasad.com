@@ -105,10 +105,10 @@ function project(){
 
 
 function bio(){
-    window.alert("NOT SET YET");
+    alert("NOT SET YET");
     
 }
 function home(){
-window.alert("NOT SET YET");
+alert("NOT SET YET");
     
 }
