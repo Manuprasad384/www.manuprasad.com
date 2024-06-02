@@ -80,7 +80,7 @@ document.getElementById("btm1").style.display="block";
 document.getElementById("btm2").style.display="block";
 document.getElementById("btm3").style.display="block";
 a=1;b=1;
-document.getElementById("mnb").src="Cbtn.png";
+document.getElementById("mnb").src="Tclose.png";
 
 }
 else{
