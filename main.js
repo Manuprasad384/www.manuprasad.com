@@ -76,7 +76,7 @@ document.getElementById("form-popup").style.display = "none";
 function send() {
 
       
-    /*  $.ajax({
+    $.ajax({
       url:'https://script.google.com/macros/s/AKfycbz9NDWcBZGV-hpN4EWVgLe3HC8XW0InNV4MdruRdVDTfc8282hv5kIudW2p_7pu9FAk7A/exec',
       method:'post',
 
@@ -88,13 +88,13 @@ function send() {
         document.getElementById("form-container").reset();
       },
       error:(err)=>{alert('somthing error');}
-    });*/
+    });
     
     
     
-    setTimeout(function(){
+   /* setTimeout(function(){
     document.location.reload();
-    },4000);
+    },4000);*/
     
     
     
