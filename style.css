@@ -471,7 +471,7 @@ border:solid 1px black;
 position:absolute;
     z-index:5;
     width:150px;
-    height:80px;
+    height:100px;
     border-radius:10px;
     background: rgb(194,38,197);
 background: linear-gradient(90deg, rgba(194,38,197,1) 0%, rgba(40,192,199,1) 50%, rgba(70,211,183,1) 100%);
