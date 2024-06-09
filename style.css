@@ -436,7 +436,7 @@ border:solid black 2px;
 
 #flight{
 
-display:none;
+display:block;
 position:absolute;
 z-index:+7;
 margin-left:40%;
