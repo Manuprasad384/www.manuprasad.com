@@ -18,9 +18,31 @@ border: solid black 3px;
    border-radius:15px 35px;
    
     
-    background: rgb(59,63,65);
-background: linear-gradient(0deg, rgba(59,63,65,1) 41%, rgba(139,28,173,1) 78%, rgba(94,88,195,1) 88%, rgba(27,177,229,1) 100%);
-    
+    background-image: linear-gradient(
+  0deg,
+  hsl(300deg 6% 3%) 0%,
+  hsl(298deg 19% 10%) 13%,
+  hsl(296deg 26% 14%) 24%,
+  hsl(296deg 31% 19%) 35%,
+  hsl(295deg 34% 24%) 44%,
+  hsl(295deg 36% 30%) 52%,
+  hsl(295deg 38% 35%) 59%,
+  hsl(295deg 40% 41%) 65%,
+  hsl(295deg 41% 46%) 71%,
+  hsl(295deg 46% 52%) 75%,
+  hsl(295deg 60% 58%) 79%,
+  hsl(295deg 78% 64%) 83%,
+  hsl(279deg 92% 70%) 86%,
+  hsl(263deg 100% 74%) 88%,
+  hsl(246deg 100% 77%) 91%,
+  hsl(228deg 100% 74%) 93%,
+  hsl(216deg 100% 68%) 94%,
+  hsl(209deg 100% 63%) 96%,
+  hsl(203deg 100% 57%) 97%,
+  hsl(199deg 95% 52%) 98%,
+  hsl(197deg 88% 53%) 99%,
+  hsl(196deg 78% 55%) 100%,
+  hsl(194deg 68% 57%) 100%
 }
 
 
