@@ -1,24 +1,45 @@
 <!DOCTYPE html>
 <html>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<body ontouchstart="showCoordinates(event)" ontouchmove="showCoordinates(event)">
+<body  style="background:green"
 
-<h1>The TouchEvent's touches Property</h1>
 
-<p>Touch somewhere in this document.</p>
+>
 
-<p>The horizontal and vertical coordinates of the touch are: <span id="demo"></span></p>
 
-<p><strong>Note:</strong> This examples uses touches<strong>[0]</strong> meaning that it will only show the coordinates of one finger (the first).</p>
+ 
+<div style="width:20px;height:20px;background:red;border-radius:50%;margin-top:300px;margin-left:150px" id="div"
+ontouchstart="showCoordinates(event)" ontouchmove="showCoordinates(event)"
 
-<p><strong>Note:</strong> Touch events works for touch devices only.</p>
+></div>
+
+<p><span id="demo"></span></p>
+
+<iframe src="https://manuprasad384.github.io/Calculator/"width="260px" height="250px" title="W3Schools Free Online Web Tutorials">
+</iframe>
+
+
 
 <script>
+    
 function showCoordinates(event) {
   var x = event.touches[0].clientX;
   var y = event.touches[0].clientY;
-  document.getElementById("demo").innerHTML = [x] + ", " + y;
+  
+  
+  if(y < 700 && y > 50){
+  document.getElementById("div").style.marginTop = y-10 +"px"
 }
+if(x < 350 && x > 50){
+document.getElementById("div").style.marginLeft=x-10+"px"
+}
+
+
+}
+
+
+
+
 </script>
 
 </body>

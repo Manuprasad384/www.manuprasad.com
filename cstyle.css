@@ -1,0 +1,85 @@
+section{
+margin-top:5vw;
+margin-left:9vw;
+    padding:2vw;
+    background-image:linear-gradient(to bottom,#2aabff,#c415ff);
+    border-radius:3vw;
+    height:120vw;
+    width:75vw;
+    border:solid .5vw white;
+}
+
+
+#result{
+    width:68vm;
+    font-size:12vw;
+    
+}
+
+#div1{
+    margin-top:10vw;
+    margin-left:3vw;
+    width:68vw;
+    height:12vw;
+    
+    border-radius:1vw;
+    border:solid .5vw black;
+    text-align:right;
+    
+    background: gray;
+    
+    
+    overflow:hidden;
+    
+}
+
+#div2{
+    margin-left:3vw;
+    margin-top:9vw;
+    
+    width:84vw;
+       
+}
+
+.but{ 
+    width:15vw;
+    height:15vw;
+    margin:1vw;
+    border-radius:15vw;
+    border:0;
+    font-size:10vw;
+    border:solid .5vw black;
+    
+    color:black;
+    background:white;
+    
+
+}
+
+
+#img{
+    height:10vw;
+    width:1.5vw;
+    
+    position: relative;
+  animation-name: cr;
+  animation-duration: 1s;
+    animation-iteration-count:infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes cr {
+  
+  0%{opacity:0}
+  
+  50%{opacity:0}
+  
+  100%{opacity:1}
+}
+
+
+#result{
+    width:68vm;
+    font-size:12vw;
+    
+}
